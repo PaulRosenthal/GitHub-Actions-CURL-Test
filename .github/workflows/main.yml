@@ -9,4 +9,4 @@ jobs:
     - uses: actions/checkout@master
     - uses: ./action-a
       env:
-        MY_NAME: "Mona"
+        TYPE_OF_TEST: "CURL Test"
