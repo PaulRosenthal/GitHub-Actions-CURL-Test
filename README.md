@@ -1,5 +1,5 @@
-## Welcome to "Hello World" with GitHub Actions
+## GitHub Actions CURL Test
 
-This course will walk you through writing your first action and using it with a workflow file. 
+This GitHub action runs a Dockerfile with a Debian distribution of Linux, installs CURL, and launches a script that runs a CURL test against a URL defined in the workflow variables.
 
-**Ready to get started? Navigate to the first issue.**
+Template/Framework for this test comes from the [GitHub Lab GitHub Actions Introduction](https://lab.github.com/github/hello-github-actions!).
