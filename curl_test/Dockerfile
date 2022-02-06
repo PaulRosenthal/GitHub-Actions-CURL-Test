@@ -1,4 +1,4 @@
-FROM debian:9.5-slim
+FROM debian:bullseye-slim
 
 LABEL "com.github.actions.name"="CURL Test"
 LABEL "com.github.actions.description"="Runs a CURL Test"
